@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import "../Style/register.scss";
+import Sidebar from '../Component/Sidebar'
+import Chat from '../Component/Chat'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='home'>
+      <div className='container'>
+        <Sidebar />
+        <Chat />
+      </div>
+    </div>
   )
 }
 
