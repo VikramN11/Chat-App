@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from "../images/image-thomas.jpg"
+import avatar from "../images/my-avatar.jpg"
 
 const Navbarside = () => {
   return (
